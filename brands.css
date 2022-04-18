@@ -1,0 +1,145 @@
+.row {
+    display: flex;
+}
+.left {
+    width: 20%;
+    height: 1000px;
+}
+.right {
+    float: right;
+    width: 78%;
+    margin: auto;
+
+}
+.line {
+    border-left: 1px solid grey;
+  height: 700px;
+  position: absolute;
+  left: 19%;
+  margin-left: -3px;
+
+}
+nav label{
+    font-size: 22px;
+    display: block;
+    cursor: pointer;
+
+
+}
+.button span {
+    float: right;
+    line-height: 35px;
+
+}
+nav ul{
+    list-style: none;
+    display: block;
+
+}
+nav ul li{
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+
+}
+nav ul ul {
+    position: static;
+}
+nav ul ul li{
+    line-height: 30px;
+    padding-left: 0px;
+}
+nav ul li span{
+    float: right;
+}
+.nutri {
+    box-shadow: 0 2px 6px #dadbe6;
+    width: 100%;
+
+    background: #f0f1f7;
+    font-size: 1em;
+    text-align: center;
+
+}
+.inside-nutri{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+}
+.img-nutri{
+    
+    height:150px;
+    width: 235px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    margin: auto;
+}
+.beauty {
+    width: 100%;
+    background-color: #f0f1f7;
+    box-shadow: 0 2px 6px #dadbe6;
+    
+
+}
+.inside-beauty{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+
+
+}
+.img-beauty {
+    height:150px;
+    width: 235px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    margin: auto;
+
+}
+.img2-beauty {
+    height:150px;
+    width: 235px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    float: left;
+    margin: 10px;
+    margin-bottom: 10px;
+
+}
+.jewellery {
+    width: 100%;
+    background-color: #f0f1f7;
+    box-shadow: 0 2px 6px #dadbe6;
+    
+
+}
+.inside-jewellery{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+
+
+}
+.img-jewellery {
+    height:150px;
+    width: 235px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
